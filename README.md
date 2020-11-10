@@ -19,5 +19,6 @@ In dieses Repository können **Fehlermeldungen** und **Funktionsvorschläge** f�
 ## Sicherheitsprobleme
 Sollten dir Probleme mit deiner Sicherheit oder eventuelle Sicherheitsfehler aufgefallen sein, sende bitte eine E-Mail an [info@kippebloggt.de](mailto:info@kippebloggt.de).
 
-Viele Grüße
+
+Viele Grüße<br>
 die Redaktion hinter kippebloggt.de

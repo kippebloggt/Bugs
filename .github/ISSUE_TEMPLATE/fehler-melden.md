@@ -1,8 +1,8 @@
 ---
 name: Fehler melden
 about: Erstelle einen Bug-Report und hilf uns, ihn zu beheben!
-title: ''
-labels: ''
+title: 'Bug report: [TITLE]'
+labels: bug
 assignees: ''
 
 ---

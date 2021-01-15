@@ -1,5 +1,5 @@
 ---
-name: feature-vorschlag
+name: Feature vorschlagen  
 about: Du hast Ideen, was wir anders machen könnten? Schieß los!
 title: 'Feature request: [TITLE]'
 labels: enhancement

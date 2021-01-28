@@ -1,4 +1,4 @@
-<p align="center"><a href="https://kippebloggt.de"><img src="https://kippebloggt.de/wp-content/uploads/2018/10/kippebloggt_logo.png" width="150"></a></p>
+<p align="center"><a href="https://kippebloggt.de"><img src="https://kippebloggt.de/wp-content/themes/kippeportal/img/logo/kippebloggt_black.svg" width="275"></a></p>
 
 <p align="center">
 <a href="https://github.com/kippebloggt/Bugs/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues-raw/kippebloggt/Bugs?label=Offene%20Issues&style=flat-square" alt="Offene Issues"></a>

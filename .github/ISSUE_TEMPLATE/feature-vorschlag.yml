@@ -1,0 +1,37 @@
+name: Feature vorschlagen
+description: Du hast Ideen, was wir anders machen könnten? Schieß los!
+labels: [enhancement]
+assignees:
+  - lukaszange
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Basiert der Vorschlag aus einem bestehenden Problem?
+      description: Bitte beschreibe das Problem, welches mit dem Vorschlag behoben werden soll, wenn vorhanden.
+    validations:
+      required: false
+
+  - type: textarea
+    id: info
+    attributes:
+      label: Beschreibe bitte deinen Vorschlag
+      description: Beschreibe bitte klar und deutlich deinen Vorschlag.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Gibt es Alternativen, an die du auch gedacht hast?
+      description: Beschreibe, ob es alternative Lösungen für das Feature geben kann.
+    validations:
+      required: false
+
+  - type: textarea
+    id: more
+    attributes:
+      label: Weitere Informationen
+      description: Weitere Informationen zu dem Featurevorschlag, wenn vorhanden.
+    validations:
+      required: false

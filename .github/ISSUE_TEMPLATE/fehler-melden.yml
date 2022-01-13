@@ -1,0 +1,140 @@
+name: Fehler melden
+description: Erstelle einen Bug-Report und hilf uns, den Fehler zu beheben!
+labels: [bug]
+assignees:
+  - lukaszange
+body:
+  - type: textarea
+    id: info
+    attributes:
+      label: Beschreibe den Fehler
+      description: Bitte gebe eine klare und strukturierte Beschreibung des Fehlers an.
+      placeholder: bspw. 'Wenn ich ... bekomme ich den Fehler ...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Die Schritte, um den Fehler zu reproduzieren
+      description: Schritte, die du getan hast, um zum Fehler zu kommen.
+      placeholder: |
+        1. Gehe zu '...'
+        2. Klicke auf  '....'
+        3. Scrolle herunter bis '....'
+        4. Hier ist der Fehler
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+      description: Bitte gebe eine klare und strukturierte Beschreibung an, was für ein Verhalten du erwartet hättest.
+      placeholder: bspw. 'Eigentlich hätte ich erwartet, dass ... passiert oder ... angezeigt wird'
+    validations:
+      required: true
+
+  - type: input
+    id: kippeportal-version
+    attributes:
+      label: kippeportal-Version
+      description: Die aktuelle Version der kippebloggt-Website findest du im Menü 'Einstellungen', welches du im Footer aufrufen kannst, und dort ganz unten.
+      placeholder: bspw. 'Version 1.3.0'
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot-and-more-info
+    attributes:
+      label: Weitere Informationen zum Fehler / Screenshots
+      description: Gebe hier an, was du uns sonst noch zum Fehler sagen willst. Fertige bitte, wenn möglich, einen Screenshot des Fehler an und füge ihn diesem Report hinzu.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Gerät
+      description: Auf welchem Gerät ist dir der Fehler aufgefallen?
+      multiple: true
+      options:
+        - Desktop
+        - Laptop
+        - Smartphone
+        - Tablet (privat)
+        - iPad der Schule
+        - Smart TV
+        - Streaming-Box (AppleTV, Chromecast, usw.)
+        - '* nicht angegeben'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Betriebssystem
+      description: Auf welchem Betriebssytem ist dir der Fehler aufgefallen?
+      multiple: true
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Android
+        - iOS / iPadOS
+        - '* nicht angegeben'
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: Betriebssystem-Version
+      description: Deine aktuell verwendete Betriebssystem-Version.
+      placeholder: bspw. '12.1 (21C52)'
+    validations:
+      required: false
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: Welchen Browser verwendest du?
+      multiple: true
+      options:
+        - Google Chrome
+        - Firefox
+        - Brave
+        - Opera
+        - Safari
+        - Microsoft Edge
+        - Internet Explorer
+        - '* nicht angegeben'
+    validations:
+      required: true
+
+  - type: input
+    id: browser_version
+    attributes:
+      label: Browser-Version
+      description: Deine aktuell verwendete Browser-Version.
+      placeholder: bspw. '96.0 (64-Bit)'
+    validations:
+      required: false
+
+  - type: textarea
+    id: browser_extensions
+    attributes:
+      label: Browser-Erweiterungen
+      description: Hast du Browser-Erweiterungen installiert?
+      placeholder: bspw. 'AdBlock Plus, DuckDuckGo Privacy Essentials, uBlock Origin ...'
+    validations:
+      required: false
+
+  - type: textarea
+    id: more
+    attributes:
+      label: Zusätzliche Bemerkungen
+      description: Gebe hier an, was du uns sonst noch sagen willst.
+    validations:
+      required: false
